@@ -22,7 +22,7 @@ body {
 }
 
 .carousel-item img {
-    max-height: 85vh;
+    height: 850px;
     width: 100%;
 }
 
@@ -54,5 +54,11 @@ body {
 
 .social-links a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }
 
