@@ -2,24 +2,36 @@ body {
     font-family: Roboto, sans-serif;
 }
 .navbar {
-    background-color: #2E7D32;
+    background-color: #007BFF;
 }
 
 .nav .nav-link.active {
-    background-color: #7CB342;
-    color: #F5F5DC;
+    background-color: #4A4A4A;
+    color: #E0E0E0;
 }
 
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
-    color: #F5F5DC;
-}
-
-.navbar-brand {
-    font-family: Pacifico, cursive;
+    color: #E0E0E0;
 }
 
 .navbar-toggler {
-    background-color: #F5F5DC;
+    background-color: #E0E0E0;
+}
+
+.carousel-item img {
+    max-height: 85vh;
+    width: 100%;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#about {
+    background-color: #E0E0E0;
+}
+.text-colored {
+    color: #007BFF;
 }
