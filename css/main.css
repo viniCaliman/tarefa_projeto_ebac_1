@@ -5,14 +5,15 @@ body {
     background-color: #007BFF;
 }
 
-.nav .nav-link.active {
+#header .nav .nav-link.active {
     background-color: #4A4A4A;
     color: #E0E0E0;
 }
 
-.nav .nav-link,
+#header .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-travel .nav-link.active:hover {
     color: #E0E0E0;
 }
 
@@ -29,9 +30,19 @@ body {
     font-family: Pacifico, cursive;
 }
 
-#about {
+#about,
+#travels {
     background-color: #E0E0E0;
 }
 .text-colored {
     color: #007BFF;
 }
+.nav-travel .nav-link.active{
+    background-color: #007BFF;
+    color: #E0E0E0;
+}
+
+.nav-travel .nav-link:hover{
+    color: #007BFF;
+}
+
